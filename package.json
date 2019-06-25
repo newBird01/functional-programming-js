@@ -8,17 +8,18 @@
     "blanket": "1.2.3",
     "jest": "~20.0.4",
     "jscheck": "0.2.0",
-    "lodash": "4.14.2",
     "performance-now": "^2.0.0",
     "qunit": "1.0.0",
-    "ramda": "0.22.0",
+    "ramda": "^0.22.0",
     "rxjs": "^5.0.0-beta.11",
     "rxjs-es": "5.0.0-beta.11",
     "sinon": "1.17.5",
     "sinon-qunit": "2.0.0"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "scripts": {
     "ch01": "qunit -t src/ch01/tests.js -c src/ch01/tests.js",
